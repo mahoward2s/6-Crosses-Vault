@@ -1,23 +1,57 @@
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from "./pages/About";
+import BaseballAutograph from "./pages/BaseballAutograph";
+import BaseballEquipment from "./pages/BaseballEquipment";
+import BaseballGameWorn from "./pages/BaseballGameWorn";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import HockeyAutograph from "./pages/HockeyAutograph";
+import HockeyEquipment from "./pages/HockeyEquipment";
+import HockeyGameWorn from "./pages/HockeyGameWorn";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router basename={process.env.PUBLIC_URL}>
+      <div>
+        <Navbar />
+        <Wrapper>
+          <Switch>
+          <Route exact path={["/", "/6-Crosses-Vault","/home"]}> 
+          <Home />
+          </Route>
+          <Route exact path={["/about"]}> 
+          <About />
+          </Route>
+          <Route exact path={["/baseballautograph"]}> 
+          <BaseballAutograph />
+          </Route>
+          <Route exact path={["/baseballequipment"]}> 
+          <BaseballEquipment />
+          </Route>
+          <Route exact path={["/baseballgameworn"]}> 
+          <BaseballGameWorn />
+          </Route>
+          <Route exact path={["/contact"]}> 
+          <Contact />
+          </Route>
+          <Route exact path={["/hockeyautograph"]}> 
+          <HockeyAutograph />
+          </Route>
+          <Route exact path={["/hockeyequipment"]}> 
+          <HockeyEquipment />
+          </Route>
+          <Route exact path={["/hockeygameworn"]}> 
+          <HockeyGameWorn />
+          </Route>
+          </Switch>
+        </Wrapper>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
