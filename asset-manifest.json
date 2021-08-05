@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/6-Crosses-Vault/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/6-Crosses-Vault/static/js/main.e4596071.chunk.js",
+    "main.js.map": "/6-Crosses-Vault/static/js/main.e4596071.chunk.js.map",
+    "runtime-main.js": "/6-Crosses-Vault/static/js/runtime-main.2a33e058.js",
+    "runtime-main.js.map": "/6-Crosses-Vault/static/js/runtime-main.2a33e058.js.map",
+    "static/js/2.4f793cb4.chunk.js": "/6-Crosses-Vault/static/js/2.4f793cb4.chunk.js",
+    "static/js/2.4f793cb4.chunk.js.map": "/6-Crosses-Vault/static/js/2.4f793cb4.chunk.js.map",
+    "index.html": "/6-Crosses-Vault/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/6-Crosses-Vault/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.4f793cb4.chunk.js.LICENSE.txt": "/6-Crosses-Vault/static/js/2.4f793cb4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a33e058.js",
+    "static/js/2.4f793cb4.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.e4596071.chunk.js"
+  ]
+}
