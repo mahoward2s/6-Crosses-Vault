@@ -43,7 +43,7 @@ N/A
 Feel free to fork and improve!
 
 ## Tests
-N/A
+- npm test
 
 ## Questions
 - Mahoward2s: https://github.com/mahoward2s
