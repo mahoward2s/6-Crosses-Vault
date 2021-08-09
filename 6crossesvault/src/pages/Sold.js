@@ -1,10 +1,9 @@
 import React from "react";
 import { Card, Button, Row } from "react-bootstrap"
 
-
-function HockeyAutograph() {
-    return (
-        <div>
+function Sold() {
+  return (
+    <div>
             <Row>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="holder.js/100px180" />
@@ -40,8 +39,8 @@ function HockeyAutograph() {
                     </Card.Body>
                 </Card>
             </Row>
-        </div>
-    );
+    </div>
+  );
 }
 
-export default HockeyAutograph;
+export default Sold;

@@ -47,6 +47,12 @@ function App() {
           <Route exact path={["/hockeygameworn"]}> 
           <HockeyGameWorn />
           </Route>
+          <Route exact path={["/sold"]}> 
+          <HockeyGameWorn />
+          </Route>
+          <Route exact path={["/forsale"]}> 
+          <HockeyGameWorn />
+          </Route>
           </Switch>
         </Wrapper>
         <Footer />

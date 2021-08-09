@@ -26,6 +26,8 @@ function NavigationBar() {
             <NavDropdown.Item as={Link} to="/baseballequipment">Equipment</NavDropdown.Item>
             <NavDropdown.Item as={Link} to="/baseballautograph">Autograph</NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link as={Link} to="/forsale">For Sale</Nav.Link>
+          <Nav.Link as={Link} to="/sold">Sold</Nav.Link>
           <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
