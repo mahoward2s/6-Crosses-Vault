@@ -6,12 +6,12 @@ function BaseballAutograph() {
     return (
         <div>
             <Container>
-                <Row>
+                <Row className="text-center">
                     <h1>
-                        Baseball
+                        Coming Soon
                     </h1>
                 </Row>
-                <Row>
+                <Row className='justify-content-center'>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="holder.js/100px180" />
                         <Card.Body>

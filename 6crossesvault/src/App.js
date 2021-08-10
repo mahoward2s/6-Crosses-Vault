@@ -12,6 +12,8 @@ import HockeyGameWorn from "./pages/HockeyGameWorn";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Sold from "./pages/Sold";
+import ForSale from "./pages/ForSale";
 
 function App() {
   return (
@@ -48,10 +50,10 @@ function App() {
           <HockeyGameWorn />
           </Route>
           <Route exact path={["/sold"]}> 
-          <HockeyGameWorn />
+          <Sold />
           </Route>
           <Route exact path={["/forsale"]}> 
-          <HockeyGameWorn />
+          <ForSale />
           </Route>
           </Switch>
         </Wrapper>
