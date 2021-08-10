@@ -1,0 +1,58 @@
+h1 {
+    color: black;
+    text-shadow: 3px 3px whitesmoke;
+    font-size: 60px;
+}
+
+h3 {
+    color: black;
+    text-shadow: 3px 3px whitesmoke;
+    font-size: 30px;
+}
+
+p {
+    color: black;
+    font-weight: 500;
+}
+
+il {
+    font-weight: bold;
+    font-size: large;
+}
+
+ul {
+    font-weight: 500
+}
+
+html, body {
+    background-color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.list-group-item {
+    font-weight: 500;
+    font-size: large;
+   
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.card-text {
+    font-weight: 600;
+    font-size: medium;
+}
+
+.card-body{
+    background-color: white;
+}

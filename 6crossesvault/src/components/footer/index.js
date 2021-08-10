@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
   <div class="footer">
-    Website By: Mahoward2s
+    Website By: Mahoward2s/6 Cross Design
   </div>
   );
 }
