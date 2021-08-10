@@ -1,6 +1,12 @@
 h1 {
     color: black;
     text-shadow: 3px 3px whitesmoke;
+    font-size: 70px;
+}
+
+h2 {
+    color: black;
+    text-shadow: 3px 3px whitesmoke;
     font-size: 60px;
 }
 
