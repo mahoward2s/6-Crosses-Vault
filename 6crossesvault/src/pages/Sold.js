@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Row, Container } from "react-bootstrap"
+import { Row, Container } from "react-bootstrap"
 
 function Sold() {
     return (
