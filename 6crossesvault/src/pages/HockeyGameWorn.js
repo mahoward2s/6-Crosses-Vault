@@ -260,11 +260,11 @@ function HockeyGameWorn() {
                         <Card.Body>
                             <Card.Title>St. Louis Blues</Card.Title>
                             <Card.Text>
-                                white
+                                2019-2020 Gameworn Carl Gunnarsson St. Louis Blues Set 2 Away Jersey.  This jersey has the 2020 NHL Allstar Patch on the shoulder of the jersey which was held in St. Louis, Missouri.  Gunnarsson only wore this jersey on 01/18/2020 against the Colorado Avalanche.  The other games Gunnarsson was a healthy scratch.  During this one game he had 2 SOG and 2 BLKS.  
                             </Card.Text>
                             <Button href='https://en.wikipedia.org/wiki/Carl_Gunnarsson' target='_blank' variant="primary">Gunnarsson</Button>
                             <Button href='https://www.nhl.com/blues' target='_blank' variant="primary">Blues</Button>
-                            <Button href='https://theqmjhl.ca/qmjhl-roundup-blais-scores-winner-as-islanders-beat-cataractes-to-even-series/' target='_blank' variant="primary">?</Button>
+                            <Button href='https://www.gettyimages.com/detail/news-photo/carl-gunnarsson-of-the-st-louis-blues-awaits-a-face-off-news-photo/1194559741?adppopup=true' target='_blank' variant="primary">Photo</Button>
                         </Card.Body>
                     </Card>
                 </Row>
